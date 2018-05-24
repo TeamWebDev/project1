@@ -3,7 +3,9 @@
 
 <head>
   <title> Disability Advocacy Service</title>
-  <meta charset="utf-utf-8" />
+ 
+  <meta charset="UTF-8">
+  
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
@@ -18,12 +20,11 @@
       <span class="fa fa-list modify"></span>
     </div>
 
-	  <a href = "index.html"><img class="logo" src="images/das.png"></a>
+	  <a href = "index.html"><img class="logo" alt="das logo" src="images/das.png"></a>
     <div class="navbar">
 	    
 	    
-	    
-	    <nav class="topnav">
+	     <nav class="topnav">
 				<div class="search_bar">
 					<input type="text" placeholder="Search..." name="search">
 				</div>
@@ -91,8 +92,6 @@
 		</div>
    </div>
    
-  
-
 	<div>
 				
 				<div id="signUp" class="modal">
@@ -107,14 +106,14 @@
 							<legend id="ulegend"> <h2> You are about to create your Account </h2> </legend>
 
 							
-							<label class="email" for="email"><b>Email</b></label>
+							<label class="email"><b>Email</b></label>
 							
 							<input class="inputemail" type="text" placeholder="Enter Email" name="email" required>
 
-							<label class="password" for="password"><b>Password</b></label>
+							<label class="password"><b>Password</b></label>
 							<input class="inputpassword" type="password" placeholder="Enter Password" name="psw" required>
 
-							<p > <label class="rpassword" for="psw-repeat"><b>Repeat Password</b></label>
+							<p > <label class="rpassword" ><b>Repeat Password</b></label>
 							</p>
 							<input class="inputrpassword" type="password" placeholder="Repeat Password" name="psw-repeat" required>
 							<label>
@@ -152,7 +151,7 @@
 					</li>
 					<li><a href="ndis.html">NDIS</a>
 					</li>
-					<li><a href="contactus.html" class="active">Contact Us</a>
+					<li><a href="contactus.html">Contact Us</a>
 					</li>
 					<li><a href="supportus.html">Support Us</a>
 					</li>
@@ -166,11 +165,11 @@
     <div class="contact-content">
       <article class="topcontent">
 	        <audio controls> <source src="audio/6.mp4" type="audio/mpeg"> </audio>
-        <header>
+        
           <h2>Alice Springs, NT</h2>
-		<image class="image1" src="images/alice_springs.jpg" alt="alicesprings" style="width:220px;height:280px;"></image>
-        </header>
-        <content>
+		<img class="image1" src="images/alice_springs.jpg" alt="alicesprings" style="width:220px;height:280px;">
+       
+        
           <h4>Location</h4>
           <p>Shop 4, 54 Reg Harris Lane Alice Springs, Northern Territory 0870
           </p>
@@ -178,14 +177,14 @@
           <p>(08) 8962 1412</p>
           <h4>Office Hour</h4>
           <p>Mon – Fri 9:00am – 4:30pm</p>
-        </content>
+        
       </article>
       <article class="topcontent">
-        <header>
+        
           <h2>Tennant Creek, NT</h2>
-		<image class="image2" src="images/tc-map-2.png" alt="tc-map-2" style="width:220px;height:280px;"></image>
-        </header>
-        <content>
+		<img class="image2" src="images/tc-map-2.png" alt="tc-map-2" style="width:220px;height:280px;">
+       
+       
           <h4>Location</h4>
           <p>
             DAS office is located within the Estate Agents building 1 / 129 Paterson St. Tennant Creek, Northern Territory 0860
@@ -194,11 +193,11 @@
           <p> (08) 8953 – 1422</p>
           <h4>Office Hour</h4>
           <p>Mon – Fri 9:00am – 4:30pm</p>
-        </content>
+       
       </article>
     </div>
   </div>
-<button onclick="topFunction()" id="myBtn" class ="mybut"title="Go to top">Top</button>
+<button onclick="topFunction()" id="myBtn" class ="mybut" title="Go to top">Top</button>
   <aside class="contact-sidebar">
     <div class="container">
       <div class="wrapper">
@@ -214,14 +213,14 @@
 		
 			<fieldset id="framedisplay">
 			<p>
-			<label id="ulabel"> First Name:</label> <input type="text" name="name" id="name" placeholder="Your First Name" >
+			<label id="ulabel0"> First Name:</label> <input type="text" name="name" id="name" placeholder="Your First Name" >
 		
 			</p>
 			<p>
-			<label id="ulabel">Last Name:</label><input type="text" id="lname" class="lname" name="lname" placeholder="Your Last Name" />
+			<label id="ulabel11">Last Name:</label><input type="text" id="lname" class="lname" name="lname" placeholder="Your Last Name" />
 			</p>
 			<p>
-			<label id="ulabel">E-mail address:</label> <input type="text" name="email" id="email" placeholder="Your email address">
+			<label id="ulabel22">E-mail address:</label> <input type="text" name="email" id="email" placeholder="Your email address">
 			</p>
 			
 			<p>
@@ -229,8 +228,8 @@
               <input type="tel" name="phone" placeholder="ex. (061) 431-555555">
             </p>
 			
-			<label for="subject">Please leave us a message here</label>
-			<textarea rows="4" cols="#" id="feedback" name="feedback" form="usrform" placeholder="Write something.."></textarea><br>
+			<label >Please leave us a message here</label>
+			<textarea rows="4" id="feedback" name="feedback"  placeholder="Write something.."></textarea><br>
 			
 				<input type="submit" value="Submit">
 			
@@ -259,10 +258,12 @@
 		<p>copyright &copy; DAS</p>
 		
 	</footer>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="javascripts/click.js"></script>
 
 </body>
 
 </html>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="javascripts/click.js"></script>
+

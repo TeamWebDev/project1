@@ -891,6 +891,7 @@ https://codepen.io/rosswaycaster/pen/YPQzap
   }
   .fa-list.modify {
     display: block;
+	  color: grey;
   }
     .nav {
     width: 100%;

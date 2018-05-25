@@ -301,7 +301,7 @@ a {
   right: 30px;
   top: 60px;
   cursor: pointer;
-	color: grey;
+	color: white;
 }
 
 
@@ -891,7 +891,8 @@ https://codepen.io/rosswaycaster/pen/YPQzap
   }
   .fa-list.modify {
     display: block;
-	  color: grey;
+	  color: white;
+	  
   }
     .nav {
     width: 100%;
